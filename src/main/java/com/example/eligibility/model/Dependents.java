@@ -18,46 +18,4 @@ public class Dependents {
 	
 	private List<Benefits> dependentBenefits;
 
-//	public String getDependentId() {
-//		return dependentId;
-//	}
-//
-//	public void setDependentId(String dependentId) {
-//		this.dependentId = dependentId;
-//	}
-//
-//	public Name getDependentName() {
-//		return dependentName;
-//	}
-//
-//	public void setDependentName(Name dependentName) {
-//		this.dependentName = dependentName;
-//	}
-//
-//	public Date getDependentDateOfBirth() {
-//		return dependentDateOfBirth;
-//	}
-//
-//	public void setDependentDateOfBirth(Date dependentDateOfBirth) {
-//		this.dependentDateOfBirth = dependentDateOfBirth;
-//	}
-//
-//	public Address getDependentAddress() {
-//		return dependentAddress;
-//	}
-//
-//	public void setDependentAddress(Address dependentAddress) {
-//		this.dependentAddress = dependentAddress;
-//	}
-//
-//	public List<Benefits> getDependentBenefits() {
-//		return dependentBenefits;
-//	}
-//
-//	public void setDependentBenefits(List<Benefits> dependentBenefits) {
-//		this.dependentBenefits = dependentBenefits;
-//	}
-
-
-	
 }

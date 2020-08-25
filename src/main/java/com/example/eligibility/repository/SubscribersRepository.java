@@ -10,6 +10,6 @@ import com.example.eligibility.model.Subscribers;
 @Repository
 public interface SubscribersRepository  extends MongoRepository<Subscribers, List<Subscribers>>{
 
-	public List<Subscribers> findAll(); 
-	
+    Subscribers findBySubscriberId(String subscribers);
+
 }

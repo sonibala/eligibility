@@ -4,15 +4,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.eligibility.model.Policies;
-import com.example.eligibility.repository.PolicyRepository;
+import com.example.eligibility.repository.PoliciesRepository;
 
 @Service
-public class BenefitsService {
+public class PoliciesService {
 
 	@Autowired
-	private PolicyRepository policyRepository;
+	private PoliciesRepository policyRepository;
 	
-	public Policies getBenefitService(String policyId) {
+	public Policies getPolicyDetails(String policyId) {
 	    Policies policy=policyRepository.findByPolicyId(policyId);
 	    return policy;
 	}

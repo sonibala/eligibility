@@ -1,8 +1,5 @@
 package com.example.eligibility.model;
 
-import java.util.Date;
-import java.util.List;
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -23,45 +20,4 @@ public class Policies {
 	
 	private Long claimableAmount;
 
-//	public String getId() {
-//		return id;
-//	}
-//
-//	public void setId(String id) {
-//		this.id = id;
-//	}
-//
-//	public String getPolicyId() {
-//		return policyId;
-//	}
-//
-//	public void setPolicyId(String policyId) {
-//		this.policyId = policyId;
-//	}
-//
-//	public String getPolicyName() {
-//		return policyName;
-//	}
-//
-//	public void setPolicyName(String policyName) {
-//		this.policyName = policyName;
-//	}
-//
-//	public String getPolicyBenefits() {
-//		return policyBenefits;
-//	}
-//
-//	public void setPolicyBenefits(String policyBenefits) {
-//		this.policyBenefits = policyBenefits;
-//	}
-//
-//	public Long getClaimableAmount() {
-//		return claimableAmount;
-//	}
-//
-//	public void setClaimableAmount(Long claimableAmount) {
-//		this.claimableAmount = claimableAmount;
-//	}
-	
-	
 }
